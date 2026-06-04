@@ -176,8 +176,7 @@ class AudioVisualizer {
     
     setupAudio() {
         this.audio = document.getElementById('audioPlayer');
-        this.audio.src = 'BeyondMasterFinalFinal.wav'; 
-        
+        this.audio.src = 'https://jointheoblivion.github.io/OBLIVIONwebsite/BeyondMasterFinalFinal.wav'
         document.addEventListener('click', () => {
             if (!this.audioContext && !this.simulateAudio) {
                 this.initAudioContext();
