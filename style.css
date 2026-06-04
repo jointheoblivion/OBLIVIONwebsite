@@ -349,75 +349,129 @@ main {
 @media (max-width: 768px) {
 
     .oblivion-title {
-        font-size: 2rem;
-        letter-spacing: 6px;
-        margin-bottom: 1rem;
+    font-size: 2rem;
+    letter-spacing: 6px;
+    margin-bottom: 1rem;
     }
-
+    
     .join-button {
-        font-size: 1.2rem;
-        letter-spacing: 4px;
-        padding: 0.8rem 2rem;
-        margin: 1rem auto;
-        border-width: 2px;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    padding: 0.8rem 2rem;
+    margin: 1rem auto;
+    border-width: 2px;
     }
-
+    
     .kh-vibrating-text {
-        font-size: 1.2rem;
-        letter-spacing: 4px;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
     }
-
+    
     .warning-text {
-        font-size: 0.7rem;
-        letter-spacing: 2px;
-        margin-top: 1rem;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    margin-top: 1rem;
     }
-
+    
     .text-sequence-container {
-        padding: 1rem;
-        width: 95%;
+    padding: 1rem;
+    width: 95%;
     }
-
+    
     #sequence-text {
-        font-size: 1.2rem;
-        letter-spacing: 4px;
-        min-height: 120px;
-        margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    min-height: 120px;
+    margin-bottom: 1.5rem;
     }
-
+    
     .sequence-progress {
-        width: 80%;
-        margin: 1rem auto;
+    width: 80%;
+    margin: 1rem auto;
     }
-
+    
     #visualizer-loading {
-        font-size: 1rem;
-        letter-spacing: 3px;
+    font-size: 1rem;
+    letter-spacing: 3px;
     }
-
+    
     #sphere-controls {
-        gap: 5px;
-        padding: 5px;
-        bottom: 10px;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 95%;
+    gap: 5px;
+    padding: 5px;
+    bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
     }
-
+    
     .sphere-control-btn {
-        font-size: 0.6rem;
-        padding: 4px 8px;
-        letter-spacing: 1px;
-        border-width: 1px;
+    font-size: 0.6rem;
+    padding: 4px 8px;
+    letter-spacing: 1px;
+    border-width: 1px;
     }
-
+    
     .spinner {
-        width: 40px;
-        height: 40px;
-        border-width: 3px;
-        margin: 15px auto;
+    width: 40px;
+    height: 40px;
+    border-width: 3px;
+    margin: 15px auto;
     }
-}
+    }
+    
+    @media (max-width: 480px) {
+    
+    .oblivion-title {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    }
+    
+    .join-button {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    padding: 0.6rem 1.2rem;
+    }
+    
+    .kh-vibrating-text {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    }
+    
+    .warning-text {
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    }
+    
+    #sequence-text {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    min-height: 80px;
+    }
+    
+    .text-sequence-container {
+    padding: 0.5rem;
+    width: 98%;
+    }
+    
+    .join-container {
+    padding: 1.5rem;
+    width: 95%;
+    }
+    
+    .sequence-progress {
+    width: 90%;
+    height: 3px;
+    }
+    
+    .sphere-control-btn {
+    font-size: 0.5rem;
+    padding: 3px 6px;
+    }
+    
+    #canvas-container {
+    height: 70vh;
+    }
+    }
 
 @keyframes spin {
     to { transform: rotate(360deg); }
